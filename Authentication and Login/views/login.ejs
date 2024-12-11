@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full h-screen bg-zinc-900 text-white p-10">
+        <h3 class="text-white text-xl mb-4">Login User</h3>
+        <form action="/login" method="post" class="space-y-4">
+            <!-- Updated field name -->
+            <input type="email" placeholder="E-mail" name="email" class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 w-full" required>
+            <input type="password" placeholder="Password" name="password" class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 w-full" required>
+            <input type="submit" class="px-5 py-2 bg-blue-500 rounded-md cursor-pointer" value="Login User">
+        </form>
+    </div>
+</body>
+</html>
